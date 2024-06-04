@@ -17,7 +17,7 @@
 		<h2>Membership Information Management</h2>
 	</header>
 	
-	<div class="content">	
+	<div class="content_top1">	
 		<div class="inscribe">
 			<h3>Entry Item：</h3>
 			<p>First Name： ${FIRST_NAME }</p>

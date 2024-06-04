@@ -15,7 +15,7 @@
 		<h2>Membership Information</h2>
 	</header>
 	
-	<div class="content">	
+	<div class="content_top">	
 		<h3>ログアウトしました。</h3>
 	</div>
 </body>

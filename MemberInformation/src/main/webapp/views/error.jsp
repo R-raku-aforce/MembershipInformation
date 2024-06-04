@@ -16,7 +16,7 @@
 		<h2>Error</h2>
 	</header>
 	
-	<div class="content">	
+	<div class="content_top">	
 		失敗しました、もう一度やり直してください。
  		<p>An error occurred: <%= request.getAttribute("errorMessage") %></p>
 	</div>

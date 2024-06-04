@@ -21,7 +21,7 @@
 		<h2>Membership Information Management</h2>
 	</header>
 	
-	<div class="content">	
+	<div class="content_top">	
 <%
 jp.co.aforce.bean.MemberShip membership = (jp.co.aforce.bean.MemberShip) session.getAttribute("membership");
 

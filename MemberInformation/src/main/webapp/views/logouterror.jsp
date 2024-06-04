@@ -15,7 +15,7 @@
 		<h2>Membership Information Management</h2>
 	</header>
 		
-	<div class="content">	
+	<div class="content_top">	
 		<h3>すでにログアウトしました。</h3>
 	</div>
 </body>

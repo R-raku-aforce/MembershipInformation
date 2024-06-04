@@ -18,7 +18,7 @@
     </header>
     
     <!-- 其他菜单内容 -->
-    <div class="content">	
+    <div class="content_top">	
     <p>ようこそ</p>
     <!-- 返回按钮 -->
     <form action="<%= request.getContextPath() %>/views/loginout.jsp" method="get">
