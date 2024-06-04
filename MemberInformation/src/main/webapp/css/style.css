@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body{
+    background-image: url('../img/001.jpg')
+; /* 相对于 webapp 目录的路径 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    font-family: "Josefin Slab", serif;
+    color: rgb(240, 240, 240); /* 月牙白的RGB表示 */
+	font-weight: bold;
+}
+html::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 100%;
+    transform: translateX(-50%);
+    background-color: rgba(200, 200, 200, 0.4); /* 使用半透明背景 */
+    z-index: -1;
+}
+header{
+	text-align: center;
+	width: 80%; /* 调整边框的长度为页面宽度的80% */
+    margin: auto; /* 在水平方向上居中 */
+	border-bottom: 8px solid rgba(220, 220, 220, 0.5); /* 添加浅灰色细线 */
+}
+.thanks{
+	text-align: center;
+}
+
+.content_top{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.name{
+	display: flex;
+	flex-direction: column;
+}
+
+/* 如果不希望影响最后一个 .item 元素，可以使用以下选择器 */
+.item:not(:last-child) {
+    margin-bottom: 5px;
+}
+.content_top1{
+	display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: 270px;
+}
+.ID, .sex{
+	margin-bottom: 5px;
+}
+
+h2{
+	font-size:30px;
+ 	font-family: "Jacquard 12", system-ui;
+ 	font-weight: 400;
+ 	font-style: normal;
+}
+.quiz{
+	margin-top: 100px;
+}
